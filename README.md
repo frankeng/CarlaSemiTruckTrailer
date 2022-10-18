@@ -2,7 +2,9 @@
 
 [video](https://www.youtube.com/watch?v=sq825QASvZ4)
 
-This version is still under construction.
+Run it under windows 10 with carla 0.0.13 and unreal 4.26
+
+This version is still under construction!
 
 Problems:
 
