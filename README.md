@@ -50,7 +50,7 @@ Name the "model" an "make" as below in the picture
 Launch CARLA, open a terminal in `PythonAPI/examples` and run the following command:
 
 ```sh
-python3 manual_controlSemiTrailer.py --filter dafxf # The make or model defined in step 9
+python3 manual_controlSemiTrailer.py 
 ```
 
 Note
@@ -62,6 +62,6 @@ Even if you used upper case characters in your make and model, they need to be c
 Not sure if the below line is correct. Pease try it.
 
 ```sh
-python3 generate_trafficsemiTrailer.py --filter dafxf # The make or model defined in step 9
+python3 generate_trafficsemiTrailer.py 
 ```
 
