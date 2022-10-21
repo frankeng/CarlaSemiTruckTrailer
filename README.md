@@ -69,4 +69,4 @@ If you want to couple the tractor to the trailer manualy you should place a trai
 ```sh
 python manual_control.py --filter dafxf
 ```
-Then drive backwark with the truck to the front of the trailer and it will couple. It needs a lot of improvement, but it works.
+Then drive backwards with the tractor to the front of the trailer and it will couple. It needs a lot of improvement, but it works.
