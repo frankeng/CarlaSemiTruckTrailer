@@ -50,7 +50,7 @@ Name the "model" an "make" as below in the picture
 Launch CARLA, open a terminal in `PythonAPI/examples` and run the following command:
 
 ```sh
-python3 manual_controlSemiTrailer.py 
+python3 manual_controlSemiTrailer.py -n5
 ```
 
 Note
