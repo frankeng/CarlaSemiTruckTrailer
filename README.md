@@ -50,7 +50,7 @@ Name the "model" an "make" as below in the picture
 Launch CARLA, open a terminal in `PythonAPI/examples` and run the following command:
 
 ```sh
-python3 manual_controlSemiTrailer.py
+python manual_controlSemiTrailer.py
 ```
 
 Note
@@ -62,6 +62,11 @@ Even if you used upper case characters in your make and model, they need to be c
 Not sure if the below line is correct. Pease try it.
 
 ```sh
-python3 generate_trafficsemiTrailer.py -n5
+python generate_trafficsemiTrailer.py -n5
 ```
-
+### Manual coupling
+If you want to couple the tractor to the trailer manualy you should place a trailer in the world and then run the standard manual_control.py with the option --filter dafxf
+```sh
+python manual_control.py --filter dafxf
+```
+Then drive backwark with the truck to the front of the trailer and it will couple. It needs a lot of improvement, but it works.
