@@ -36,6 +36,9 @@ As described in the [carla docs](https://carla.readthedocs.io/en/latest/tuto_A_a
 > 4. <u>Fill in the **Make** and **Model** of your vehicle. For the truck name de **Make** "DAFxf". And for the trailer name the **Make**: "trailer".</u>
 > 5. Fill in the **Class** value with your `BP_<vehicle_name>` file.
 > 6. Optionally, provide a set of recommended colors for the vehicle.
+Name the "model" an "make" as below in the picture
+![image](https://user-images.githubusercontent.com/23728090/197251353-f60eecd0-cc48-4896-9b60-1b6cdce0b01d.png)
+
 > 7. Compile and save.
 >
 > ![vehicle factory](https://carla.readthedocs.io/en/latest/img/vehicle_factory.png)
