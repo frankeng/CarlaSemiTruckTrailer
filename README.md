@@ -4,17 +4,15 @@
 
 Run it under windows 10 with carla 0.0.13 and unreal 4.26
 
-This version is still under construction!
+This version is still under construction!  
 
 Problems:
 
-- Some time the truck gets stuck, it looks like it is stuck in the floor)
+- Some time the truck gets stuck, (it looks like it is stuck in the floor)
 - Spawning the combination in the world could give problems because I did not take the length into account. So the trailer could be placed on an other vehicle
 - Cornering with the tractor,does not take into account that there is a trailer behind the truck, so corner me be cut off.
 
-**At the moment my Carla doe not work any more so I could not test the description below **
 
-**please push if you found some improvement!!**
 
 ## Put the files in the right place
 
@@ -65,7 +63,7 @@ Not sure if the below line is correct. Pease try it.
 python generate_trafficsemiTrailer.py -n5
 ```
 ### Manual coupling
-If you want to couple the tractor to the trailer manualy you should place a trailer in the world and then run the standard manual_control.py with the option --filter dafxf
+If you want to couple the tractor to the trailer manually you should place a trailer in the world and then run the standard manual_control.py with the option --filter dafxf
 ```sh
 python manual_control.py --filter dafxf
 ```
